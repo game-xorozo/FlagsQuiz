@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FlagsQuiz_AS.iml" filepath="$PROJECT_DIR$/FlagsQuiz_AS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baseGameUtils/baseGameUtils.iml" filepath="$PROJECT_DIR$/baseGameUtils/baseGameUtils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flagsQuiz/flagsQuiz.iml" filepath="$PROJECT_DIR$/flagsQuiz/flagsQuiz.iml" />
+    </modules>
+  </component>
+</project>

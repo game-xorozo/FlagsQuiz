@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="main_font">HOBOSTD.OTF</string>
+    <string name="siteUrl">http://www.nileworx.com/android/adminpanels/flags_quiz/</string>
+    <string name="adBannerUnitId">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="adInterstitialUnitId">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="app_id">111111111111</string>
+    <string name="flags_score_leaderboard">111111111111</string>
+    <string name="langDirection">ltr</string>  
+
+    <!-- =========================== Language =========================== -->
+
+
+    <!-- General -->
+
+    <string name="app_name">Flags Quiz</string> 
+    <string name="score">Score</string>
+    <string name="noGooglePlayMessage">Could not open Android market, please install the market app.</string>
+    <string name="stopLetterHelp">Can\'t add a letter, stop letter help first!</string>    
+    <string name="twitterHelpMessage">Who knows this flag?</string>
+	<string name="alphabet">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+<!--     <string name="alphabet">أبتثجحخدذرزسشصضطظعغفقكلمنهويئءؤىةاآ</string> -->
+
+    <!-- Dialogs -->
+    <!-- Remember! Most buttons of dialogs are graphic buttons not texts -->
+    
+    <string name="updatesDlg">There are new %s flags. Download?</string>
+    <string name="noUpdatesDlg">There are not any updates!</string>
+    <string name="facebookHelpDlg">Ask your friends on facebook!\nCost : 5 coins</string>
+    <string name="twitterHelpDlg">Ask your friends on twitter!\nCost : 5 coins</string>
+    <string name="hideHelpDlg">Remove the wrong letters!\nCost : 5 coin</string>
+    <string name="letterHelpDlg">Show one letter!\nCost : 5 coin</string>
+    <string name="solutionHelpDlg">Show the solution!\nCost : 10 coins</string>
+    <string name="noCoinsDlg">You don\'t have enough coins!</string>    
+    <string name="correctDlg">Congratulations!</string>
+    <string name="wrongDlg">Wrong!</string>
+    <string name="rateDlg">Please rate our app on google play!</string>
+    <string name="resetDlg">After reset you will lose your score, coins and answers. Continue?</string>
+    <string name="exitDlg">Are you sure you want to exit?</string>
+    <string name="finishDlg">Great Job!\nYou have finished the game :)</string>
+    <string name="connectDlgTitle">Internet Connection Error</string>
+    <string name="connectDlgMessage">You have to connect to the internet to get this flag image then refresh!</string>
+    <string name="connectDlgRefreshBtn">Refresh</string>
+    <string name="connectDlgBackBtn">Back</string>
+    <string name="checkUpdatesDlgTitle">Loading...</string>
+    <string name="checkUpdatesDlgMessage">Checking updates...</string>
+    <string name="internetErrorDlgTitle">Internet Connection Error</string>
+    <string name="internetErrorDlgMessage">Please connect to an internet connection!</string>
+    <string name="internetErrorDlgOkBtn">OK</string>
+    <string name="shareDlgTitle">Share via</string>
+    <string name="shareDlgSubject">Flags Quiz</string>
+    <string name="shareDlgMessage">Flags Quiz on Google Play! \n\n</string>
+
+    <!-- Settings -->
+
+    <string name="settingsTitle">SETTINGS</string>
+    <string name="soundBtnOn">Sound Effects on</string>
+    <string name="soundBtnOff">Sound Effects off</string>
+    <string name="vibrateBtnOn">Vibration on</string>
+    <string name="vibrateBtnOff">Vibration off</string>
+    <string name="rateBtn">Rate</string>
+    <string name="shareBtn">Share</string>
+    <string name="checkBtn">Check For Updates</string>
+    <string name="resetBtn">Reset Game</string>
+    
+    <!-- Update Progress Bar Notification -->
+
+    <string name="downloadingInitializing">Downloading initializing...</string>    
+    <string name="downloadingProgressBar">Downloading:</string>
+    <string name="updateSuccess">Updating completed successfully</string>
+
+
+</resources>

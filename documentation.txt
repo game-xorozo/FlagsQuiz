@@ -1,0 +1,22 @@
+How to Setup and Reskin:-
+
+- How to import the project in eclipse?
+https://youtu.be/kpOxtvv0zaU
+
+- How to edit sqlite dataabse?
+https://youtu.be/7Dula-187VY
+
+- How to install your admin panel?
+https://youtu.be/pUT4RZXP76w
+
+- How to add your leaderboard?
+https://youtu.be/R71uFdA2Wfg
+
+- How to change admob id?
+https://youtu.be/c9PgKPFroCI
+
+- How to change the language of the app?
+https://youtu.be/kzrc1eHhk9Y
+
+- How to export a signed apk file?
+https://youtu.be/3jJMKtQidJo

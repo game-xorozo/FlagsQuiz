@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <include layout="@layout/title_bar" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/adView"
+        android:layout_below="@+id/titleBar"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp" >
+
+        <RelativeLayout
+            android:id="@+id/sound"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/button_setting_settings" >
+
+            <ImageView
+                android:id="@+id/soundImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/b_sound_setting" />
+
+            <TextView
+                android:id="@+id/soundText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Sound Effects on"
+                android:textColor="#FFF"
+                android:textSize="25sp"
+                android:textStyle="bold" >
+            </TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/vibrate"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/button_setting_settings" >
+
+            <ImageView
+                android:id="@+id/vibrateImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/b_vibration_setting" />
+
+            <TextView
+                android:id="@+id/vibrateText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Vibration on"
+                android:textColor="#FFF"
+                android:textSize="25sp"
+                android:textStyle="bold" >
+            </TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rate"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/button_setting_settings" >
+
+            <ImageView
+                android:id="@+id/rateImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/b_rate_setting" />
+
+            <TextView
+                android:id="@+id/rateText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Rate"
+                android:textColor="#FFF"
+                android:textSize="25sp"
+                android:textStyle="bold" >
+            </TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/share"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/button_setting_settings" >
+
+            <ImageView
+                android:id="@+id/shareImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/b_share_setting" />
+
+            <TextView
+                android:id="@+id/shareText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Share"
+                android:textColor="#FFF"
+                android:textSize="25sp"
+                android:textStyle="bold" >
+            </TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/check"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/button_setting_settings" >
+
+            <ImageView
+                android:id="@+id/checkImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/b_check_setting" />
+
+            <TextView
+                android:id="@+id/checkText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Check For Updates"
+                android:textColor="#FFF"
+                android:textSize="25sp"
+                android:textStyle="bold" >
+            </TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/reset"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/button_setting_settings" >
+
+            <ImageView
+                android:id="@+id/resetImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/b_reset_setting" />
+
+            <TextView
+                android:id="@+id/resetText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Reset Game"
+                android:textColor="#FFF"
+                android:textSize="25sp"
+                android:textStyle="bold" >
+            </TextView>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/adBannerUnitId" />
+
+</RelativeLayout>
